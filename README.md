@@ -1,4 +1,4 @@
-# 🇧🇷 Tradutor Fx Excel PT-BR/ING 🇬
+# 🇧🇷 Tradutor Fx Excel PT-BR/ING 
 
 Extensão para Chrome/Edge que traduz fórmulas do Excel Web automaticamente entre Português e Inglês.
 
