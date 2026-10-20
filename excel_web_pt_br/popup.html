@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 300px; padding: 15px; font-family: Arial, sans-serif; background: #f8f9fa; }
+    h3 { margin: 0 0 10px 0; color: #217346; font-size: 16px; text-align: center; }
+    textarea { width: 100%; height: 70px; border: 1px solid #ccc; border-radius: 4px; padding: 5px; box-sizing: border-box; resize: none; font-family: monospace; }
+    
+    /* BOTÃO COM BANDEIRAS */
+    .translate-btn {
+      width: 100%; padding: 10px; margin-top: 10px;
+      background: linear-gradient(to right, #009c3b 50%, #012169 50%);
+      color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;
+    }
+    
+    #output { 
+      margin-top: 10px; padding: 8px; background: white; 
+      border: 1px solid #ddd; border-radius: 4px; word-break: break-all; 
+      display: none; font-family: monospace; min-height: 20px;
+    }
+    
+    #copyBtn {
+      width: 100%; margin-top: 8px; padding: 8px;
+      background: #0078d4; color: white; border: none; 
+      border-radius: 4px; cursor: pointer; font-weight: bold; display: none;
+    }
+  </style>
+</head>
+<body>
+  <h3>Tradutor Fx Excel PT-BR/ING</h3>
+  
+  <!-- ID "input" É OBRIGATÓRIO PRO JS FUNCIONAR -->
+  <textarea id="input" placeholder="Cole sua fórmula aqui..."></textarea>
+  
+  <!-- BOTÃO COM BANDEIRAS -->
+  <button id="translateBtn" class="translate-btn">Traduzir Fórmula</button>
+  
+  <!-- ID "output" É OBRIGATÓRIO PRO JS FUNCIONAR -->
+  <div id="output"></div>
+  
+  <!-- ID "copyBtn" É OBRIGATÓRIO PRO JS FUNCIONAR -->
+  <button id="copyBtn">Copiar Resultado</button>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

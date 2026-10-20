@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Excel Web PT-BR",
+  "version": "1.0",
+  "description": "Traduz fórmulas do Excel Web de PT-BR para EN",
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tradutor Fx Excel PT-BR/ING",
+    "type": "module" 
+  },
+
+  "permissions": ["clipboardWrite"]
+}
